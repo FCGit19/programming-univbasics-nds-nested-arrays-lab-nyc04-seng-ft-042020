@@ -22,9 +22,9 @@ CONVENTIONAL_PRODUCE = [
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
 
 def assembled_matrix
-  new_array = []
-  new_array.push(CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE)
-  new_array
+  assembled_matrix = []
+  assembled_matrix.push(CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE)
+  assembled_matrix
 end
 
   # Using Array literal syntax only, build another nested array that 
